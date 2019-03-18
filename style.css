@@ -21,16 +21,17 @@
     position: fixed;
 }
 .dropdown1{
-	margin-left: 60px;
 	position: relative;
-	right: 36px;
+	left: 40px;
+	position: fixed;
+	z-index: 1;	
 	display: inline-block;
 	background-color: white;
 }
 .dropdown2{
 	position: relative;
-	top: 50px;
-	right: 100px;
+	top: 25px;
+	left: 18px;
 	display: inline-block;
 	background-color: white;
 }
@@ -156,6 +157,7 @@ footer{
 .menubalk{
 	position: absolute;
 	position: fixed;
+	z-index: 1;
 	width: 89.5%;
 	height: 40px;
 	background-color: gold;
